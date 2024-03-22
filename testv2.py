@@ -4,8 +4,8 @@ import os
 import boto3
 
 # Set AWS credentials and region
-os.environ["AWS_ACCESS_KEY_ID"] = "AKIA6ODU2UQOJ2FGNHVD"
-os.environ["AWS_SECRET_ACCESS_KEY"] = "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"
+os.environ["AWS_ACCESS_KEY_ID"] = "ADD_ACCESS"
+os.environ["AWS_SECRET_ACCESS_KEY"] = "ADD_KEY"
 os.environ["REGION_NAME"] = "us-east-1"
 
 # Setup AWS session for S3
@@ -46,7 +46,7 @@ if button and selected_files:
     
     # Initialize the Anthropic client
     client = anthropic.Anthropic(
-        api_key="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"
+        api_key="ADD_KEY"
     )
 
     # Send the combined document contents along with the prompt to Claude API
