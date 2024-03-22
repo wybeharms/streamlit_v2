@@ -6,7 +6,7 @@ import boto3
 # Set AWS credentials and region
 os.environ["AWS_ACCESS_KEY_ID"] = "ADD_ACCESS"
 os.environ["AWS_SECRET_ACCESS_KEY"] = "ADD_KEY"
-os.environ["REGION_NAME"] = "us-east-1"
+os.environ["REGION_NAME"] = "ADD_REGION"
 
 # Setup AWS session for S3
 boto3.setup_default_session(aws_access_key_id=os.getenv('AWS_ACCESS_KEY_ID'),
